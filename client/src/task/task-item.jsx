@@ -17,7 +17,7 @@ function TaskItem({ data, setTaskItemFormData, setTaskItemDeleteDialogData }) {
           <div className="ms-auto d-flex align-items-start" style={{ marginTop: "-7px "}}>
             <Button
               className="border-0 p-1"
-              variant="outline-primary"
+              variant="outline-secondary"
               size="sm"
               onClick={() => setTaskItemFormData(data)}
             >

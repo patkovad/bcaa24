@@ -2,6 +2,8 @@ import { useNavigate } from "react-router-dom";
 import Container from "react-bootstrap/esm/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from 'react-bootstrap/Navbar';
+import Icon from '@mdi/react';
+import { mdiHome } from '@mdi/js';
 
 function NavBar() {
     const navigate = useNavigate();
@@ -9,13 +11,15 @@ function NavBar() {
     return (
       <Navbar
         expand="md"
-        bg="primary"
+        bg="info"
         data-bs-theme="dark"
         fixed="top"
         collapseOnSelect={true}
       >
         <Container>
-          <Navbar.Brand onClick={() => navigate("")}>FinMan</Navbar.Brand>
+          <Navbar.Brand onClick={() => navigate("")} style={{ marginTop: "-5px" }}>
+            <Icon path={mdiHome} size={1} />
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" size="sm" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">

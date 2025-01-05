@@ -85,7 +85,7 @@ function TaskItemForm({ item, onClose }) {
           <Button variant="secondary" onClick={onClose} disabled={state === "pending"}>
             Cancel
           </Button>
-          <Button type="submit" variant="primary" disabled={state === "pending"}>
+          <Button type="submit" variant="success" disabled={state === "pending"}>
             Save
           </Button>
         </Modal.Footer>

@@ -61,7 +61,7 @@ function DashboardContent() {
       <div style={{ display: "flex", gap: "16px", overflowX: "auto" }}>
         {Object.keys(sortedStatusTaskMap).map((statusId) => (
           <Card key={statusId} style={{ minWidth: "300px", flex: "1", border: "unset" }}>
-            <Card.Header className="bg-primary text-white" style={{ borderRadius: "6px" }}>
+            <Card.Header className="bg-info text-white text-center" style={{ borderRadius: "6px" }}>
               <strong>{statusMap[statusId]?.name || "Unknown Status"}</strong>
             </Card.Header>
             <Card.Body>

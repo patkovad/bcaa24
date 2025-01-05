@@ -66,7 +66,7 @@ function StatusItemForm({ data, onClose }) {
             Close
           </Button>
           <Button
-            variant="primary"
+            variant="success"
             type="submit"
             disabled={state === "pending"}
           >

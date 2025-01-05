@@ -11,13 +11,13 @@ function StatusItem({
   setStatusItemDeleteDialog,
 }) {
   return (
-    <ListGroup.Item variant="primary">
+    <ListGroup.Item variant="info">
       <Stack direction="horizontal" gap={1}>
         {data.name}
         <div className="ms-auto">
           <Button
             className="border-0 p-1"
-            variant="outline-primary"
+            variant="outline-secondary"
             size="sm"
             onClick={() => setStatusItemFormData(data)}
           >
