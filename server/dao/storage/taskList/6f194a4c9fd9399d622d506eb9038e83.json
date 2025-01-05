@@ -1,7 +1,1 @@
-{
-  "id": "6f194a4c9fd9399d622d506eb9038e83",
-  "name": "Dokončit prezentaci",
-  "description": "Doplnit do prezentace grafy",
-  "dueDate": "2024-12-31",
-  "statusId": "febf9d5ae1a94dd802cfba11c2d3a781"
-}
+{"id":"6f194a4c9fd9399d622d506eb9038e83","name":"Dokončit prezentaci","description":"Doplnit do prezentace grafy","date":"2024-12-01","statusId":"febf9d5ae1a94dd802cfba11c2d3a781"}

@@ -1,5 +1,7 @@
 const Ajv = require("ajv");
+const addFormats = require("ajv-formats").default;
 const ajv = new Ajv();
+addFormats(ajv);
 
 const taskDao = require("../../dao/task-dao.js");
 
